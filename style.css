@@ -10,13 +10,13 @@ body {
 
 .red_line {
     height: 5vh;
-    width: 50%;
+    width: 100%;
     background-color: #AD0D06;
 }
 
 .big_box {
     display: flex;
-    width: 50%;
+    width: 100%;
     flex-wrap: wrap;
 }
 
