@@ -52,3 +52,148 @@ body {
     font-weight: 900;
 
 }
+
+@media only screen and (max-width:650px) {
+    .text_lagman {
+        font-size: 30px;
+        color: white;
+        text-align: center;
+    }
+    
+    .img_lagman {
+        display: block;
+        width: 150px;
+        margin: 0 auto;
+    }
+    
+    .price_lagman {
+        display: block;
+        width: 150px;
+        margin: 0 auto;
+        background-color: #AD0D06;
+        height: 10%;
+        border: 0px;
+        border-radius: 6px;
+        color: white;
+        font-weight: 900;
+    
+    }
+
+    .boxy_1, .boxy_2, .boxy_3, .boxy_4, .boxy_5, .boxy_6 {
+        width: 40%;
+        height: 30vh;
+        background-color: #5D6573;
+        margin-top: 5%;
+        margin-left: 5%;
+    }
+}
+
+
+@media only screen and (max-width:420px) {
+    .text_lagman {
+        font-size: 25px;
+        color: white;
+        text-align: center;
+    }
+    
+    .img_lagman {
+        display: block;
+        width: 130px;
+        margin: 0 auto;
+    }
+    
+    .price_lagman {
+        display: block;
+        width: 130px;
+        margin: 0 auto;
+        background-color: #AD0D06;
+        height: 10%;
+        border: 0px;
+        border-radius: 6px;
+        color: white;
+        font-weight: 900;
+        font-size: 13px;
+    
+    }
+
+    .boxy_1, .boxy_2, .boxy_3, .boxy_4, .boxy_5, .boxy_6 {
+        width: 40%;
+        height: 28vh;
+        background-color: #5D6573;
+        margin-top: 5%;
+        margin-left: 5%;
+    }
+}
+
+
+@media only screen and (max-width:342px) {
+    .text_lagman {
+        font-size: 23px;
+        color: white;
+        text-align: center;
+    }
+    
+    .img_lagman {
+        display: block;
+        width: 120px;
+        margin: 0 auto;
+    }
+    
+    .price_lagman {
+        display: block;
+        width: 110px;
+        margin: 0 auto;
+        background-color: #AD0D06;
+        height: 10%;
+        border: 0px;
+        border-radius: 6px;
+        color: white;
+        font-weight: 900;
+        font-size: 11px;
+    
+    }
+
+    .boxy_1, .boxy_2, .boxy_3, .boxy_4, .boxy_5, .boxy_6 {
+        width: 40%;
+        height: 25vh;
+        background-color: #5D6573;
+        margin-top: 5%;
+        margin-left: 5%;
+    }
+}
+
+@media only screen and (max-width:292px) {
+    .text_lagman {
+        font-size: 20px;
+        color: white;
+        text-align: center;
+    }
+    
+    .img_lagman {
+        display: block;
+        width: 100px;
+        margin: 0 auto;
+    }
+    
+    .price_lagman {
+        display: block;
+        width: 90px;
+        margin: 0 auto;
+        background-color: #AD0D06;
+        height: 10%;
+        border: 0px;
+        border-radius: 6px;
+        color: white;
+        font-weight: 900;
+        font-size: 9px;
+    
+    }
+
+    .boxy_1, .boxy_2, .boxy_3, .boxy_4, .boxy_5, .boxy_6 {
+        width: 40%;
+        height: 22vh;
+        background-color: #5D6573;
+        margin-top: 5%;
+        margin-left: 5%;
+    }
+}
