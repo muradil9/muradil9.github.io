@@ -12,6 +12,7 @@ body {
     height: 5vh;
     width: 100%;
     background-color: #AD0D06;
+    display: flex;
 }
 
 .big_box {
@@ -23,14 +24,14 @@ body {
 .boxy_1, .boxy_2, .boxy_3, .boxy_4, .boxy_5, .boxy_6 {
     width: 40%;
     height: 50vh;
-    background-color: #5D6573;
+    /* background-color: #5D6573; */
     margin-top: 5%;
     margin-left: 5%;
 }
 
 .text_lagman {
     font-size: 35px;
-    color: white;
+    color: rgb(0, 0, 0);
     text-align: center;
 }
 
@@ -53,22 +54,35 @@ body {
 
 }
 
+.korzina_png {
+    height: 80%;
+    margin-left: 50%;
+}
+
+.h1_agpc {
+    margin-left: 15%;
+    color: white;
+    vertical-align: middle;
+    /* text-align: center; */
+    margin-top: 0.7%;
+}
+
 @media only screen and (max-width:650px) {
     .text_lagman {
         font-size: 30px;
-        color: white;
+        color: rgb(0, 0, 0);
         text-align: center;
     }
     
     .img_lagman {
         display: block;
-        width: 150px;
+        width: 130px;
         margin: 0 auto;
     }
     
     .price_lagman {
         display: block;
-        width: 150px;
+        width: 120px;
         margin: 0 auto;
         background-color: #AD0D06;
         height: 10%;
@@ -82,7 +96,7 @@ body {
     .boxy_1, .boxy_2, .boxy_3, .boxy_4, .boxy_5, .boxy_6 {
         width: 40%;
         height: 30vh;
-        background-color: #5D6573;
+        /* background-color: #5D6573; */
         margin-top: 5%;
         margin-left: 5%;
     }
@@ -92,7 +106,7 @@ body {
 @media only screen and (max-width:420px) {
     .text_lagman {
         font-size: 25px;
-        color: white;
+        color: rgb(0, 0, 0);
         text-align: center;
     }
     
@@ -119,7 +133,7 @@ body {
     .boxy_1, .boxy_2, .boxy_3, .boxy_4, .boxy_5, .boxy_6 {
         width: 40%;
         height: 28vh;
-        background-color: #5D6573;
+        /* background-color: #5D6573; */
         margin-top: 5%;
         margin-left: 5%;
     }
@@ -129,7 +143,7 @@ body {
 @media only screen and (max-width:342px) {
     .text_lagman {
         font-size: 23px;
-        color: white;
+        color: rgb(0, 0, 0);
         text-align: center;
     }
     
@@ -156,7 +170,7 @@ body {
     .boxy_1, .boxy_2, .boxy_3, .boxy_4, .boxy_5, .boxy_6 {
         width: 40%;
         height: 26vh;
-        background-color: #5D6573;
+        /* background-color: #5D6573; */
         margin-top: 5%;
         margin-left: 5%;
     }
@@ -165,7 +179,7 @@ body {
 @media only screen and (max-width:292px) {
     .text_lagman {
         font-size: 20px;
-        color: white;
+        color: rgb(0, 0, 0);
         text-align: center;
     }
     
@@ -192,7 +206,7 @@ body {
     .boxy_1, .boxy_2, .boxy_3, .boxy_4, .boxy_5, .boxy_6 {
         width: 40%;
         height: 24vh;
-        background-color: #5D6573;
+        /* background-color: #5D6573; */
         margin-top: 5%;
         margin-left: 5%;
     }
