@@ -39,13 +39,19 @@ body {
 
 a {
     text-decoration: none;
-    color: black;
+    color:black;
 }
 
 /* Responsive styles */
-@media (max-width: 600px) {
+@media only screen and (max-width: 600px) {
     .menu-row {
-        flex-direction: column;
+        /* flex-direction: column; */
+
+    }
+    .menu {
+        margin-left: 18%;
+        width: 70%;
+        /* background-color: aqua; */
     }
     .menu-item {
         margin-bottom: 20px;
@@ -55,3 +61,23 @@ a {
 .eda_food:hover, .drink:hover, .third-image:hover {
     transform: scale(1.1);
 }
+
+@media only screen and (max-width: 330px) {
+    .menu-row {
+        flex-direction: column;
+
+    }
+    .menu {
+        margin-left: 18%;
+        width: 70%;
+        /* background-color: aqua; */
+    }
+    .menu-item {
+        margin-bottom: 20px;
+    }
+}
+
+.eda_food:hover, .drink:hover, .third-image:hover {
+    transform: scale(1.1);
+}
+
